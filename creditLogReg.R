@@ -1,7 +1,7 @@
 library(ROCR)
 library(dplyr)
 windows()
-creditcard <- read.csv("E:/study material/abhishek excelr study material/data science study material/Redo assignments/logistic regression/creditcard.csv")
+creditcard <- read.csv(choose.files())
 View(creditcard)
 creditcard <- creditcard[,-1]
 summary(creditcard)
